@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import sklearn
 
 model = pickle.load(open('RF_class_model.pkl','rb'))
 scaler = pickle.load(open('scal_class.pkl', 'rb'))
